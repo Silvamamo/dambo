@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+/* 共通部分
+------------------------------- */
+html {
+    font-size: 100%;
+}
+body{
+    font-family: "Yu Gothic Medium", "游ゴシック Medium", 'YuGothic', "游ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif, 'Skia';
+    line-height: 1.7;
+    color: #432;
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+}
+
+
+
+/* HEADER
+------------------------------- */
+.logo {
+  width: 200px;
+  margin-top: 10px;
+}
+
+.page-header {
+  background: rgb(234, 81, 132);
+  height:80px;
+}
+
+.main-nav {
+  display: flex;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  margin-top: 25px;
+  list-style: none;
+}
+
+.main-nav li {
+  margin-left: 36px;
+  font-family: 'Yu Gothic Medium';
+}
+
+.main-nav a {
+  color: rgba( 255, 255, 255, 0.7);
+}
+
+.main-nav a:hover {
+  color:rgba(255, 255, 255, 1.0) ;
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper {
+  margin: 0 auto;
+  padding: 0 2%;
+}
+
+/* HOME
+------------------------------- */
+.img-dambo {
+  height: 350px;
+}
+
+.img-dambored {
+  width: 400px;
+}
+
+.home-content {
+  text-align: center;
+  margin-top: 90px;
+  /* ダンボを移動できる */
+}
+/* ここからしたの文字色変更されてないかも */
+.page-title{
+  color: #754f3d;
+}
+
+.home-content p {
+  font-size: 1.125rem;
+  margin: 10px 0 42px;
+  color: #754f3d;
+}
+
+/* homeの背景グラデーション */
+#home {
+  background-image: linear-gradient(#ffffff, #fff0f7);
+  min-height: 100vh;
+}
+
+/* ボタン */
+.button {
+  font-size: 1rem;
+  background: rgba(234, 81, 132, 1.0);
+  color: #fff;
+  border-radius: 5px;
+  padding: 13px 25px;
+}
+
+.button:hover {
+  background: rgba(234, 81, 132, 0.7);
+}
+
+.foto-left {
+  margin-left: 10px;
+}

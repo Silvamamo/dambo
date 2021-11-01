@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+.title-name h2{
+  text-align: center;
+  margin-top: 50px;
+  font-family: 'Skia';
+  font-size: 70px;
+}
+
+.title-name p {
+  text-align: center;
+  margin-bottom: 30px;
+}
